@@ -1,0 +1,21 @@
+﻿@model Naloga2_Tkalcic.Models.UporabnikZgesli
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Registriraj se</h1>
+
+@using (Html.BeginForm("Index", "Registracija", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.EditorForModel()
+    </div>
+
+
+    <input type="submit" class="btn btn-outline-primary" value="Naprej">
+    <a class="btn btn-outline-success" asp-area="" asp-action="GoogleLogin" asp-controller="Login">
+        Vpis z Google
+    </a>
+}

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Naloga2_Tkalcic.Models.Uporabnik>
+@{
+    ViewData["Title"] = "Clan";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Člani</h1>
+
+<div id="accordion">
+    @foreach (var data in Model)
+    {
+        <div>
+            <h3>@data.Ime @data.Priimek</h3>
+        </div>
+        <div>
+            <ul>
+                <li>Kontakt: @data.EPosta </li>
+                <li>Kraj: @data.KrajRojstva </li>
+                <li>Država: @data.Drzava </li>
+            </ul>
+            <a asp-action="Profil" asp-route-id="@data.Id" class="text-primary">Podrobnosti</a>
+        </div>
+
+    }
+</div>

@@ -1,0 +1,30 @@
+﻿@model Naloga2_Tkalcic.Models.Uporabnik
+@{
+    ViewData["Title"] = "Uporabnik";
+}
+
+<h1>@Model.Ime @Model.Priimek</h1>
+
+<div>
+    <dl class="inline">
+        <dt><strong>Datum Rojstva</strong></dt>
+        <dd>@Html.DisplayFor(model => model.DatumRojstva)</dd>
+        <dt><strong>EMŠO</strong></dt>
+        <dd>@Html.DisplayFor(model => model.EMSO)</dd>
+        <dt><strong>Starost</strong></dt>
+        <dd>@Html.DisplayFor(model => model.Starost)</dd>
+        <dt><strong>Kraj Rojstva</strong></dt>
+        <dd>@Html.DisplayFor(model => model.KrajRojstva)</dd>
+        <dt><strong>Naslov</strong></dt>
+        <dd>@Html.DisplayFor(model => model.Naslov)</dd>
+        <dt><strong>Poštna Številka</strong></dt>
+        <dd>@Html.DisplayFor(model => model.PostnaStevilka)</dd>
+        <dt><strong>Pošta</strong></dt>
+        <dd>@Html.DisplayFor(model => model.Posta)</dd>
+        <dt><strong>Država</strong></dt>
+        <dd>@Html.DisplayFor(model => model.Drzava)</dd>
+        <dt><strong>E-Naslov</strong></dt>
+        <dd>@Html.DisplayFor(model => model.EPosta)</dd>
+    </dl>
+</div>
+

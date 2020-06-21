@@ -1,0 +1,17 @@
+﻿@model Naloga2_Tkalcic.Models.Uporabnik
+@{
+    ViewData["Title"] = "Profil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.DisplayForModel()
+
+@if (User.IsInRole("Admin"))
+{
+    <a asp-action="Uredi" asp-route-id="@Model.Id" class="btn btn-outline-warning"> Uredi </a>
+    <a asp-action="Izbrisi" asp-route-id="@Model.Id" class="btn btn-outline-danger"> Izbriši </a>
+    
+}
+    <a asp-action="Narocanja" asp-route-id="@Model.Id" class="btn btn-outline-success"> Vse izposoje </a>
+
+

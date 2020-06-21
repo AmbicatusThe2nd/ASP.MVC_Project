@@ -1,0 +1,14 @@
+﻿@model Naloga2_Tkalcic.Models.Uporabnik
+@{
+    ViewData["Title"] = "Uredi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Uredi svoje podatke</h1>
+@using (Html.BeginForm("Uredi", "Clan", FormMethod.Post))
+{
+    @Html.EditorForModel()
+    <input type="submit" class="btn btn-outline-primary" value="Potrdi" asp-route-id="@Model.Id">
+}
+
+

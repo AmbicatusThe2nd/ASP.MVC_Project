@@ -1,0 +1,23 @@
+﻿@model Naloga2_Tkalcic.Models.Login
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Prijavi se</h1>
+
+<form asp-action="Index" method="post">
+    <div class="form-group">
+        <label asp-for="@Model.UserName" ></label>
+        <input asp-for="@Model.UserName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Password" ></label>
+        <input asp-for="@Model.Password" class="form-control" />
+    </div>
+    <button class="btn btn-outline-primary" type="submit"> Prijavi se </button>  
+</form>
+<a class="btn btn-outline-success" asp-controller="Login" asp-action="GoogleLogin">
+    Vpis z Google
+</a>
+

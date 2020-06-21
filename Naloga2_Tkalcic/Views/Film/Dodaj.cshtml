@@ -1,0 +1,13 @@
+﻿@model Naloga2_Tkalcic.Models.Film
+@{
+    ViewData["Title"] = "Dodaj";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Dodaj Film</h1>
+@using (Html.BeginForm("Dodaj", "Film", FormMethod.Post))
+{
+    @Html.EditorForModel()
+    <input type="submit" class="btn btn-outline-primary" value="Dodaj">
+}
+

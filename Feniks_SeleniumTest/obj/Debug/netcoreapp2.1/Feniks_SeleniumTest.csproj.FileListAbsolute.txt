@@ -1,0 +1,17 @@
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\bin\Debug\netcoreapp2.1\Feniks_SeleniumTest.deps.json
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\bin\Debug\netcoreapp2.1\Feniks_SeleniumTest.runtimeconfig.json
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\bin\Debug\netcoreapp2.1\Feniks_SeleniumTest.runtimeconfig.dev.json
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\bin\Debug\netcoreapp2.1\Feniks_SeleniumTest.dll
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\obj\Debug\netcoreapp2.1\Feniks_SeleniumTest.csprojAssemblyReference.cache
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\obj\Debug\netcoreapp2.1\Feniks_SeleniumTest.AssemblyInfoInputs.cache
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\obj\Debug\netcoreapp2.1\Feniks_SeleniumTest.AssemblyInfo.cs
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\obj\Debug\netcoreapp2.1\Feniks_SeleniumTest.genruntimeconfig.cache
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\bin\Debug\netcoreapp2.1\Feniks_SeleniumTest.pdb
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\obj\Debug\netcoreapp2.1\Feniks_SeleniumTest.csproj.CoreCompileInputs.cache
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\obj\Debug\netcoreapp2.1\Feniks_SeleniumTest.dll
+C:\Users\PunisherTFB\Documents\Faks\DSR\Again\Feniks_SeleniumTest\obj\Debug\netcoreapp2.1\Feniks_SeleniumTest.pdb

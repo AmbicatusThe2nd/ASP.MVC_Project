@@ -1,0 +1,28 @@
+﻿@model Naloga2_Tkalcic.Models.Izposoja
+@{
+    ViewData["Title"] = "Izposoja";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Izposoje</h1>
+
+<div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Film</th>
+                <th>Datum Izposoje</th>
+                <th> Potrebno vrniti do</th>
+                <th>Cena</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.Film.Naziv</td>
+                <td>@Model.Datum_Od.ToString("MM:dd:yyyy")</td>
+                <td>@Model.Datum_Do.ToString("MM:dd:yyyy")</td>
+                <td>@Model.Cena €</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

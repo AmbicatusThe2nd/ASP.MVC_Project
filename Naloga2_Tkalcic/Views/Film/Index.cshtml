@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Naloga2_Tkalcic.Models.Film>
+@{
+    ViewData["Title"] = "Film";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Filmi</h1>
+<div id="accordion">
+    @foreach (var data in Model)
+    {
+        <div>
+            <h3>@data.Naziv</h3>
+        </div>
+        <div>
+            <ul>
+                <li>Žanr: @data.Zanr </li>
+                <li>Dolžina: @data.Dolzina </li>
+                <li>Izvodov: @data.St_Izvodov </li>
+            </ul>
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-action="Uredi" asp-route-id="@data.ID" class="text-warning"> Uredi </a>
+                <a asp-action="Izbrisi" asp-route-id="@data.ID" class="text-danger"> Izbriši </a>
+            }
+            <a asp-action="Podrobnosti" asp-route-id="@data.ID" class="text-primary">Podrobnosti</a>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@data.ID" class="text-success">Izposodi</a>
+            }
+        </div>
+
+    }
+</div>
+@if (User.IsInRole("Admin"))
+{
+    <a class="btn btn-outline-warning" asp-area="" asp-controller="Film" asp-action="Dodaj">Dodaj Film</a>
+}

@@ -1,0 +1,14 @@
+﻿@model Naloga2_Tkalcic.Models.Film
+@{
+    ViewData["Title"] = "Podrobnosti";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@Model.Naziv</h1>
+<ul>
+    <li> Dolžina Filma: @Model.Dolzina</li>
+    <li> Žanr Filma: @Model.Zanr</li>
+    <li> Število ivodov na zalogi: @Model.St_Izvodov</li>
+</ul>
+<a class="btn btn-outline-success" asp-area="" asp-controller="Film" asp-action="Index"> Nazaj </a>
+
